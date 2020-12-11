@@ -1,0 +1,76 @@
+.main{
+    text-align: center;
+    width: 650px;
+    height: 590px;
+    min-height: 600px;
+    overflow: scroll;
+    border: 5px solid black;
+    margin-left: 350px;
+    border-radius: 10px;
+    background-color:mediumslateblue;
+    
+}
+h1{
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color:black;
+    font-weight: bolder;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: rgb(104, 146, 238);
+
+}
+#task{
+    //background-color:rgb(104, 146, 238);
+    height: 200px;
+}
+#addInp:hover{
+background-color: lightblue;
+}
+#addInp{
+    height: 100px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:crimson;
+    
+}
+#addbtn{
+    background-color: blue;
+    font-size: 2em;
+    font-style: italic;
+    border-radius: 50px;
+}
+
+#delall{
+    background-color: red;
+    font-size: 2em;
+    font-style: italic;
+    border-radius: 50px;
+}
+.btns{
+    display: block;
+}
+
+.litask{
+    font-size: 2em;
+    margin-left: 10px;
+    text-align: justify;
+    padding: 5px;
+
+}
+#del{
+    background-color: red;
+    font-size: 0.5em;
+    font-weight: bolder;
+    margin-left: 10px;
+    
+}
+#edit{
+    font-size: 0.5em;
+    font-weight: bolder;
+    background-color: blue;
+    margin-left: 10px;
+}
